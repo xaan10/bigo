@@ -1,0 +1,147 @@
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+@media (Max-width:991px){
+    .section1{
+        flex-direction: column-reverse;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+    
+.section1 img{
+    width: 450px;
+    max-width: 100%;
+}
+@media (Max-width:991px){
+    .section1 .col{
+        flex-basis: 100%;
+    }
+}
+@media (max-width:9911px){
+    .section2{
+        flex-direction: column-reverse;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width:991px){
+    .section2 .col{
+        flex-basis: 100%;
+    }
+}
+
+
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.section3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+
+.section3 .col{
+    flex-basis: 30%;
+}
+
+@media (max-width:991px){
+    .section3{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .section3 .col{
+        flex-basis: 45%;
+        padding-bottom: 25%;
+    }
+}
+@media (max-width:767px){
+    .section3 .col{
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
+
+.section3 .col img{
+    width: 250px;
+}
+.section6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+.section6 .col{
+    flex-basis: 35%;
+}
+@media (max-width:991px){
+    .section6{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .section6 .col{
+        flex-basis: 45%;
+        padding-bottom: 25px;
+    }
+}
+@media (max-width:767px){
+    .section6 .col{
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
+
+.section6 .col img{
+    width: 250px;
+    max-width: 100%;
+}
+.section7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+.section7 .col img{
+    text-align: center;
+}
+.section7 .col{
+    flex-basis: 30%;
+}
+@media (max-width:991px){
+    .section7{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .section7 .col{
+        flex-basis: 45%;
+        padding-bottom: 25px;
+    }
+}
+@media (max-width:767px){
+    .section7 .col{
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
+
+.section7 .col img{
+    width: 250px;
+    max-width: 100%;
+}
